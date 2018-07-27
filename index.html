@@ -1,9 +1,30 @@
 <!DOCTYPE html>
 <html>
     <head>
-        
+        <title>Recipes 100</title>
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+        <link rel="stylesheet" href="style.css" type="text/css" />
     </head>
     <body>
-       <h1>ITS WORKING</h1>
+        <nav class="navbar navbar-expand-lg navbar-dark">
+  <a class="navbar-brand" href="#">Recipes 100</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+  <div class="collapse navbar-collapse" id="navbarNav">
+    <ul class="navbar-nav">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Baljeet<span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Ya Yeet</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<input type="text form-control" class="form-control" placeholder="Ingredient stuff" id="ingredients" style="width:auto; margin-left:15px;">
+<button id="recipes">Load Recipes</button>
+<div id="recipeHolder"></div>
+<script type="text/javascript" src="script.js"></script>
     </body>
 </html>
